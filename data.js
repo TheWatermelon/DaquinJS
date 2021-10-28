@@ -1,4 +1,4 @@
-// fetch from https://dev.pokemontcg.io/
+// fetched from https://dev.pokemontcg.io/
 data=[{
 		"id": "base4-1",
 		"name": "Alakazam",
