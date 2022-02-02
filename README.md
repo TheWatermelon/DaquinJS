@@ -1,3 +1,3 @@
-# PokeJS
+# DaquinJS
 
-An attempt to create a Pokemon card game
+Le jeu du daquin en javascript avec des images tirées de unsplash.com
