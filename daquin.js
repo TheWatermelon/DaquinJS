@@ -18,8 +18,8 @@ window.onload = function() {
     var w; // width of a piece
 
     // Cheats
-    var showNumbers = false;
-    var showSolution = false;
+    var showNumbers;
+    var showSolution;
     var numbersButton = document.getElementById("numbers");
     numbersButton.onclick = toggleNumbers;
     var solutionButton = document.getElementById("solution");
@@ -76,6 +76,10 @@ window.onload = function() {
         canvas.addEventListener("mousedown", onMouseDown);
         canvas.addEventListener("mouseup", onMouseUp);
         canvas.addEventListener("mouseout", onMouseOut);
+
+        // Revoke cheats
+        showNumbers = false;
+        showSolution = false;
 
         h = canvas.height / rows;
         w = canvas.width / cols;
